@@ -40,31 +40,8 @@ An intelligent crowd monitoring and analysis platform featuring two powerful pip
 - Real-time processing at 30+ FPS (with GPU)
 - Robust validation filters minimize false positives
 - Configurable confidence thresholds
-- Support for multiple video sources (webcam, files, RTSP streams)
-- Offline operation capability
-- Low latency alert system
 
----
-
-## 📊 Pipeline Comparison
-
-| Feature | ROI Segmentation | ByteTrack Tracking |
-|---------|------------------|-------------------|
-| **Model** | YOLOv11m-seg (48MB) | YOLOv11n (6MB) |
-| **Speed** | ~20-25 FPS | ~30-40 FPS |
-| **Accuracy** | ⭐⭐⭐⭐⭐ High | ⭐⭐⭐⭐ Medium-High |
-| **Use Case** | Specific area monitoring | Full scene tracking |
-| **Person Tracking** | ❌ No (count only) | ✅ Yes (with IDs) |
-| **Motion Trails** | ❌ No | ✅ Yes |
-| **Data Export** | ❌ No | ✅ JSON + Summary |
-| **ROI Support** | ✅ Custom polygon | ❌ Full frame only |
-| **Alerts** | ✅ Threshold-based | ✅ Real-time stats |
-| **Video Recording** | ❌ No | ✅ Annotated output |
-| **Best For** | Doorways, queues, zones | Crowds, events, analytics |
-
----
-
-## 🚀 Quick Start
+# 🚀 Quick Start
 
 ### Prerequisites
 
